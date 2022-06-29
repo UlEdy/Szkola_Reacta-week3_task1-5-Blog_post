@@ -15,7 +15,7 @@ const Card = ({ title, author, date, pic, alt, intro, content }) => {
 			<div> {intro}</div>
 			<div className={!showMore ? 'visible' : null}>{content}</div>
 			<Button
-				onClick={() => clickMore}
+				onClick={clickMore}
 				label={!showMore ? 'Click for more' : 'Less info'}
 			/>
 		</div>

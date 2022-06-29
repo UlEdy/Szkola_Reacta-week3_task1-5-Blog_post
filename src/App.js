@@ -1,7 +1,6 @@
 import './App.css';
 
 import Card from './components/Card';
-// import Employees from './components/Employees';
 import { Input, Textarea } from './components/Form';
 import { Menu, MenuLink } from './components/Menu';
 
@@ -34,7 +33,6 @@ function App() {
 				<Input />
 				<Textarea />
 			</Container>
-			{/* <Employees /> */}
 		</div>
 	);
 }
